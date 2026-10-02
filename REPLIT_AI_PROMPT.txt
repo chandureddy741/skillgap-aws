@@ -1,0 +1,18 @@
+I imported a recovered full-stack hackathon project called SKILLGAP.AI.
+Do NOT redesign the UI and do NOT replace the existing architecture.
+
+Your job is only to deploy the existing project correctly.
+
+1. Read `.replit`, `RECOVERY_README.md`, `scripts/replit_build.sh`, and `scripts/replit_run.sh`.
+2. Add/use these Replit Secrets (never hard-code them):
+   - GROQ_API_KEY
+   - JWT_SECRET_KEY
+3. Run the project exactly with the included Replit run script.
+4. Verify `/health` returns status `ok` and `frontend_built: true`.
+5. Verify this smoke-test path without redesigning anything:
+   Register → Mission Control → Skill Scan → Skill Gap Report → Roadmap → Project Lab → Interview Arena.
+6. Resume Lab should accept a text-based PDF; it also has a safe fallback if Groq is unavailable.
+7. Keep frontend API calls same-origin at `/api`.
+8. Keep the app listening on port 8000.
+9. Fix only deployment/runtime errors if any appear. Do not change the visual design.
+10. Once all checks pass, publish/deploy and give me the new `.replit.app` URL.

@@ -1,0 +1,5 @@
+.topic-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(185px, 1fr)); gap: 9px; }
+.topic-item { display: flex; align-items: center; gap: 9px; padding: 11px 12px; border-radius: var(--radius-sm); border: 1px solid var(--border); background: rgba(2,6,23,.58); font-size: 12px; color: #cbd5e1; cursor: pointer; transition: .2s ease; }
+.topic-item:hover { border-color: rgba(34,211,238,.35); transform: translateY(-1px); }
+.topic-item.selected { background: linear-gradient(90deg, rgba(34,211,238,.09), rgba(59,130,246,.07)); border-color: rgba(34,211,238,.35); color: #ecfeff; font-weight: 700; }
+.topic-item input { accent-color: var(--cyan); }

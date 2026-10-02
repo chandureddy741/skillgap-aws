@@ -1,0 +1,9 @@
+.navbar { position: sticky; top: 0; z-index: 50; background: rgba(6,10,19,.78); backdrop-filter: blur(18px); border-bottom: 1px solid var(--border); }
+.navbar-inner { display: flex; align-items: center; justify-content: space-between; min-height: 70px; gap: 16px; }
+.navbar-logo { display: flex; align-items: center; gap: 10px; font-size: 13px; font-weight: 850; letter-spacing: 1px; }
+.navbar-logo-icon { width: 36px; height: 36px; display: grid; place-items: center; border-radius: 12px; color: white; background: var(--gradient); }
+.navbar-links { display: flex; align-items: center; gap: 5px; }
+.navbar-link { padding: 9px 12px; color: var(--text-soft); font-size: 13px; font-weight: 650; }
+.navbar-link:hover { color: var(--text); }
+.navbar-cta { margin-left: 6px; padding: 10px 15px; }
+@media (max-width: 760px) { .navbar-link[href^="/#"] { display: none; } .navbar-inner { min-height: 62px; } .navbar-cta { padding: 9px 12px; } }

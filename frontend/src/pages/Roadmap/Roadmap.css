@@ -1,0 +1,43 @@
+.timeline {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 20px;
+}
+
+.timeline-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 26px;
+}
+
+.timeline-dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--gradient);
+  animation: pulseGlow 2.5s infinite;
+  flex-shrink: 0;
+}
+
+.timeline-dot.completed {
+  background: #10b981;
+  animation: none;
+}
+
+.timeline-dot.upcoming {
+  background: var(--light-blue);
+  animation: none;
+}
+
+.timeline-line {
+  flex: 1;
+  width: 3px;
+  background: linear-gradient(var(--blue), var(--purple));
+  border-radius: 3px;
+  margin-top: 6px;
+}

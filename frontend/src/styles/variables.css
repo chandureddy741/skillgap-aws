@@ -1,0 +1,21 @@
+:root {
+  --white: #ffffff;
+  --bg: #060a13;
+  --light-blue: rgba(34, 211, 238, 0.12);
+  --blue: #38bdf8;
+  --blue-dark: #22d3ee;
+  --cyan: #22d3ee;
+  --cyan-soft: rgba(34, 211, 238, 0.12);
+  --purple: #8b5cf6;
+  --purple-light: rgba(139, 92, 246, 0.14);
+  --text: #eef2ff;
+  --text-soft: #94a3b8;
+  --border: rgba(148, 163, 184, 0.13);
+  --glass: rgba(13, 20, 35, 0.72);
+  --shadow-soft: 0 14px 46px rgba(0, 0, 0, 0.26);
+  --shadow-card: 0 20px 60px rgba(0, 0, 0, 0.28);
+  --radius: 18px;
+  --radius-sm: 12px;
+  --gradient: linear-gradient(120deg, #22d3ee, #3b82f6 48%, #8b5cf6);
+  --gradient-soft: radial-gradient(circle at 20% 0%, rgba(34,211,238,.09), transparent 30%), radial-gradient(circle at 85% 15%, rgba(139,92,246,.10), transparent 27%), #060a13;
+}
